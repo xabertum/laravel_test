@@ -8,14 +8,13 @@
 </head>
 <body>
 
-    @yield('content')
-
-
     <ul>
         <li><a href="/contact">contact form</a></li>
         <li><a href="/about">about us</a></li>
+        <li><a href="/">Home</a></li>
     </ul>
 
+    @yield('content')
 
 </body>
 </html>
